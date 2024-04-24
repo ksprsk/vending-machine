@@ -27,8 +27,8 @@ void Widget::updateMoney(int value) {
 
 void Widget::changeEnable() {
     ui->coffee->setEnabled(money >= 100);
-    ui->tea->setEnabled(money >= 200);
-    ui->milk->setEnabled(money >= 300);
+    ui->tea->setEnabled(money >= 150);
+    ui->milk->setEnabled(money >= 200);
     ui->reset->setEnabled(money > 0);
 }
 
